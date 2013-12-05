@@ -1,0 +1,23 @@
+{
+	"name": "concoction",
+	"version": "1.0.0",
+	"author": "Benjamin Pannell <admin@sierrasoftworks.com>",
+	"description": "A preprocessing framework designed for use with Iridium",
+	"homepage": "https://sierrasoftworks.com/concoction",
+	"repository": "https://github.com/sierrasoftworks/Concoction",
+	"licence": "MIT",
+	"main": "./index",
+	"scripts": {
+		"test": "mocha --require should"
+	},
+	"engines": {
+		"node": ">= 0.6"
+	},
+	"dependencies": {
+		"lodash": "*"
+	},
+	"devDependencies": {
+		"mocha": "*",
+		"should": "*"
+	}
+}
